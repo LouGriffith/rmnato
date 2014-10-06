@@ -25,14 +25,14 @@
 					        	$location->the_post();
 					        ?>
 					          
-					        <div class="small-5 medium-5 columns">
+					        <div class="small-6 medium-7 columns">
 								<ul class="footer-social">
 									<li><a href="https://www.facebook.com/<?php the_field('facebook'); ?>"><i class="icon-facebook"></i></a></li>
 									<li><a href="https://www.twitter.com/<?php the_field('twitter'); ?>"><i class="icon-twitter"></i></a></li>
 								</ul>
 							</div>
 
-							<div class="small-7 medium-7 columns location-info">
+							<div class="small-6 medium-5 columns location-info">
 								<h3 class="location-phone"><?php the_field('phone'); ?></h3>
 
 								<address class="location-address">
@@ -40,7 +40,7 @@
 									<?php the_field('city'); ?>, <?php the_field('state'); ?> <?php echo the_field('zip'); ?>
 								</address>
 
-								<a class="location-directions" href ="http://maps.google.com/maps?saddr=Start&daddr=<?php the_field('street_address'); ?> <?php the_field('city'); ?>,<?php the_field('state'); ?> <?php echo the_field('zip'); ?>">Get Directions</a>
+								<!-- <a class="location-directions" href ="http://maps.google.com/maps?saddr=Start&daddr=<?php the_field('street_address'); ?> <?php the_field('city'); ?>,<?php the_field('state'); ?> <?php echo the_field('zip'); ?>">Get Directions</a> -->
 							</div>
 
 					        <?php
@@ -60,7 +60,7 @@
 				</div>
 
 				<div class="small-11 medium-10 columns">
-					<p class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. <?php _e('Handcrafted by','lou'); ?> <a href="http://lougriffith.com" rel="nofollow" title="Lou">Lou</a>.</p>
+					<p class="copyright"><span class="copy">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</span><span class="handcrafted">  <?php _e('Handcrafted by','lou'); ?> <a href="http://lougriffith.com" rel="nofollow" title="Lou">Lou</a>.</span></p>
 				</div>
 			</div>
 		</footer>

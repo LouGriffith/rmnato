@@ -81,7 +81,7 @@
 			    <ul class="right">
 			    	<?php if(get_field('facebook')) { ?><li><a href="https://www.facebook.com/<?php the_field('facebook'); ?>"><i class="icon-facebook"></i></a></li><? } ?>
 			    	<?php if(get_field('twitter')) { ?><li><a href="https://www.twitter.com/<?php the_field('twitter'); ?>"><i class="icon-twitter"></i></a></li><? } ?>
-			    	<?php if(get_field('instagram')) { ?><li><a href="<?php the_field('instagram'); ?>"><i class="icon-instagram"></i></a></li><? } ?>
+			    	<?php if(get_field('instagram')) { ?><li><a href="http://instagram.com/<?php the_field('instagram'); ?>"><i class="icon-instagram"></i></a></li><? } ?>
 			    	<?php if(get_field('google+')) { ?><li><a href="https://plus.google.com/<?php the_field('google+'); ?>"><i class="icon-googleplus"></i></a></li><? } ?>
 			    </ul>
 

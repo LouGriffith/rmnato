@@ -19,27 +19,35 @@
 		padding: 0;
 		h2{
 			margin: 0;
-			padding: .5em;
-			background: #fff;
-			border-radius: .3em;
+			padding: 0;
 			float: left;
+
+			@media #{$small-only} {
+
+				&{
+					width: 100%;
+					text-align: center;
+				}
+
+			}
 
 			i.icon-rm{
 				display: block;
 				font-size: 4.3em;
-				color: $secondary-color;
+				color: #fff;
 			}
 
 			i.icon-nato{
 				display: block;
 				font-size: 1.33em;
-				color: $secondary-color;
+				color: #fff;
 			}
 		}
 
 		@media #{$small-only} {
 
 			&{
+				width: 100%;
 				text-align: center;
 				margin-bottom: 1.5em;
 			}
@@ -177,6 +185,14 @@
 
 			&{
 				text-align: center;
+			}
+
+			.copy{
+				display: block;
+			}
+
+			.handcrafted{
+				display: block;
 			}
 
 		}
