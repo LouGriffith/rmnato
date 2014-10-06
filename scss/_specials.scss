@@ -1,0 +1,25 @@
+ul.specials{
+    margin: 0 0 2em;
+    padding: 0;
+}
+
+li.special-item {
+    list-style:none;    
+    overflow:hidden;
+    padding:5px 0;
+    position:relative;
+    z-index: 10;
+
+    label {
+        float:left;
+        background:#fff;
+        padding-right:10px;
+    }
+
+    span {
+        float:right;
+        background:#fff;
+        padding-left:10px; 
+    }
+
+}

@@ -1,0 +1,946 @@
+/* Welcome and glad you are using Reverie.
+ * This is the main stylesheet loaded by default.
+ * Edit the file and have fun.
+ * http://themefortress.com/reverie */
+header.page-top {
+  border-top: 5px solid #7bb6a6;
+  box-shadow: 0 8px 6px -6px #ddd;
+}
+header.page-top .name h1 a {
+  padding: 0 13px 0 0;
+}
+@media only screen and (max-width: 40em) {
+  header.page-top .name h1 a {
+    padding: 0 13px;
+  }
+}
+header.page-top ul.right .button {
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 40em) {
+  header.page-top ul.right {
+    margin-right: 0;
+    text-align: center;
+  }
+  header.page-top ul.right li {
+    display: inline-block;
+  }
+  header.page-top ul.right li a {
+    padding: .5em;
+  }
+  header.page-top ul.right .contact {
+    text-transform: capitalize;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.top-bar-section ul.right {
+  margin-right: 1.1rem;
+}
+.top-bar-section ul.right .contact {
+  margin-left: 1em;
+}
+
+div.container #lead {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
+@media only screen and (max-width: 40em) {
+  div.container #lead {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2.2em;
+    padding: 0 .2em;
+  }
+}
+div.container #content {
+  background-color: white;
+  border: 0px solid #dddddd;
+  padding: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  z-index: 80;
+}
+div.container #content span.author,
+div.container #content time {
+  font-size: 0.9375rem;
+  color: #999999;
+  margin-bottom: 0.9375rem;
+}
+div.container #content span.author a,
+div.container #content time a {
+  color: #999999;
+  font-weight: bold;
+}
+div.container #content span.author a:hover, div.container #content span.author a:focus,
+div.container #content time a:hover,
+div.container #content time a:focus {
+  color: #333333;
+}
+div.container #content div.entry-content {
+  margin-top: 0.9375rem;
+}
+div.container .index-card {
+  border-bottom: 0px solid #dddddd;
+  padding-bottom: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+div.container #bottom {
+  background-color: white;
+  border: 0px solid #dddddd;
+  padding: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+body.home div.container section {
+  padding: 1em;
+}
+
+#sidebar {
+  margin-top: 1.25rem;
+}
+
+#sidebar .panel, .footer-widget .panel {
+  border: none;
+  background-color: white;
+  padding: 1.5rem 1.875rem;
+  color: #333333;
+}
+#sidebar .panel a, .footer-widget .panel a {
+  color: #999999;
+  font-size: 0.9375rem;
+}
+#sidebar .panel a:hover, #sidebar .panel a:focus, .footer-widget .panel a:hover, .footer-widget .panel a:focus {
+  color: #333333;
+}
+#sidebar ul, .footer-widget ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#sidebar .widget, .footer-widget .widget {
+  border: 0px solid #dddddd;
+}
+#sidebar .widget h4, .footer-widget .widget h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dddddd;
+  color: #888;
+  font-weight: 600;
+}
+
+footer.full-width {
+  background-color: #7bb6a6;
+  padding-top: 1.25rem;
+}
+footer.full-width p {
+  font-size: 0.875rem;
+  color: #fff;
+}
+footer.full-width a {
+  color: #DDD;
+  font-size: 0.9375rem;
+}
+footer.full-width a:hover, footer.full-width a:focus {
+  color: #FFF;
+}
+footer.full-width .footer-logo {
+  margin-bottom: -1.5em;
+}
+footer.full-width .footer-logo h2 {
+  margin: 0;
+  padding: 0;
+}
+footer.full-width .footer-logo h2 i {
+  font-size: 1.4em;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width .footer-logo {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+}
+footer.full-width h4.services {
+  text-transform: uppercase;
+  color: #fff;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width h4.services {
+    text-align: center;
+  }
+}
+footer.full-width ul.services {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer.full-width ul.services li {
+  float: left;
+  width: 50%;
+}
+footer.full-width ul.services li > a {
+  float: left;
+  display: inline-block;
+  padding: 0 0 .3em;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  border-radius: .3em;
+  transition: all 0.5s ease;
+  color: #ddd;
+  border-radius: 0;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width ul.services li {
+    text-align: center;
+  }
+  footer.full-width ul.services li a {
+    width: 100%;
+  }
+}
+footer.full-width ul.services li:nth-child(odd) {
+  clear: left;
+  width: 50%;
+}
+footer.full-width ul.services li:hover a, footer.full-width ul.services li.active a {
+  color: #fff;
+}
+footer.full-width .footer-social {
+  list-style: none;
+}
+footer.full-width .footer-social li {
+  display: inline-block;
+}
+footer.full-width .footer-social li a {
+  padding: .3em;
+  font-size: 2em;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width .footer-social {
+    margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  footer.full-width .footer-social {
+    float: right;
+  }
+}
+footer.full-width .location-info {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4em;
+}
+footer.full-width .location-info .location-phone {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+footer.full-width .location-info .location-address {
+  font-size: .8em;
+  line-height: 1.6em;
+  font-style: normal;
+  font-weight: 100;
+  margin-bottom: 1em;
+}
+footer.full-width .location-info .location-directions {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 1em;
+  color: #fff;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width .location-info {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+footer.full-width .copyright {
+  margin-top: 1em;
+}
+@media only screen and (max-width: 40em) {
+  footer.full-width .copyright {
+    text-align: center;
+  }
+}
+
+ul.services {
+  margin: 0;
+  padding: 0;
+}
+
+li.product-item {
+  list-style: none;
+  overflow: hidden;
+  padding: 5px 0;
+  position: relative;
+}
+li.product-item label {
+  float: left;
+  background: #fff;
+  padding-right: 10px;
+}
+li.product-item span {
+  float: right;
+  background: #fff;
+  padding-left: 10px;
+}
+
+.dotted-bg {
+  border-top: dotted 2px #ccc;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+ul.staff {
+  margin: 0;
+  padding: 0;
+}
+
+li.staff-member {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+meta.foundation-version {
+  font-family: "/5.2.3/";
+}
+
+meta.foundation-mq-small {
+  font-family: "/only screen/";
+  width: 0em;
+}
+
+meta.foundation-mq-medium {
+  font-family: "/only screen and (min-width:40.063em)/";
+  width: 40.063em;
+}
+
+meta.foundation-mq-large {
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em;
+}
+
+meta.foundation-mq-xlarge {
+  font-family: "/only screen and (min-width:90.063em)/";
+  width: 90.063em;
+}
+
+meta.foundation-mq-xxlarge {
+  font-family: "/only screen and (min-width:120.063em)/";
+  width: 120.063em;
+}
+
+meta.foundation-data-attribute-namespace {
+  font-family: false;
+}
+
+html, body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 100%;
+}
+
+body {
+  background: #d7d8cb;
+  color: #333333;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.hide {
+  display: none;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+select {
+  width: 100%;
+}
+
+ul.pagination {
+  display: block;
+  min-height: 1.5rem;
+  margin-left: -0.3125rem;
+}
+ul.pagination li {
+  height: 1.5rem;
+  color: #222222;
+  font-size: 0.875rem;
+  margin-left: 0.3125rem;
+}
+ul.pagination li a {
+  display: block;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: #999999;
+  border-radius: 3px;
+}
+ul.pagination li:hover a,
+ul.pagination li a:focus {
+  background: #e6e6e6;
+}
+ul.pagination li.unavailable a {
+  cursor: default;
+  color: #999999;
+}
+ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus {
+  background: transparent;
+}
+ul.pagination li.current a {
+  background: #488373;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+ul.pagination li.current a:hover, ul.pagination li.current a:focus {
+  background: #488373;
+}
+ul.pagination li {
+  float: left;
+  display: block;
+}
+
+/* Pagination centred wrapper */
+.pagination-centered {
+  text-align: center;
+}
+.pagination-centered ul.pagination li {
+  float: none;
+  display: inline-block;
+}
+
+/* Start to customize Reverie */
+@font-face {
+  font-family: 'kcerrito';
+  src: url("../fonts/kcerrito.eot?-fj1w3b");
+  src: url("../fonts/kcerrito.eot?#iefix-fj1w3b") format("embedded-opentype"), url("../fonts/kcerrito.woff?-fj1w3b") format("woff"), url("../fonts/kcerrito.ttf?-fj1w3b") format("truetype"), url("../fonts/kcerrito.svg?-fj1w3b#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'kcerrito';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"] span, [class*=" icon-"] span {
+  display: none;
+}
+
+.icon-KevinCerrito:before {
+  content: "\e600";
+  font-size: 3.5em;
+}
+
+.icon-play:before {
+  content: "\e601";
+}
+
+.icon-bullhorn:before {
+  content: "\e602";
+}
+
+.icon-googleplus:before {
+  content: "\e603";
+}
+
+.icon-facebook:before {
+  content: "\e604";
+}
+
+.icon-instagram:before {
+  content: "\e605";
+}
+
+.icon-twitter:before {
+  content: "\e606";
+}
+
+.icon-feed:before {
+  content: "\e607";
+}
+
+.icon-soundcloud:before {
+  content: "\e608";
+}
+
+header.page-top {
+  border-top: 5px solid #7bb6a6;
+}
+
+.top-bar-section ul li a {
+  text-transform: uppercase;
+}
+
+a, a:visited, a:hover, a:visited:hover {
+  -moz-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+
+figure {
+  margin: 0 auto 1.25rem;
+}
+
+figure img {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+img.alignright {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+img.alignleft {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+img.aligncenter {
+  display: block;
+  margin: 18px auto;
+}
+
+.gallery dt, .gallery dl {
+  display: inline-block;
+}
+.gallery dl {
+  margin-left: 0.5625rem;
+  margin-right: 0.5625rem;
+}
+
+figure.figure {
+  margin: 0 auto;
+  display: table;
+}
+figure.figure figcaption {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-style: italic;
+  padding: 8px 10px;
+  color: #999;
+  margin-bottom: 1.25rem;
+  display: table-caption;
+  caption-side: bottom;
+}
+
+figure.alignright.figure {
+  float: right;
+  margin: 0 0 18px 18px;
+}
+
+figure.alignleft.figure {
+  float: left;
+  margin: 0 18px 18px 0;
+}
+
+/* 
+.footer-widget {
+	background-color: #eee;
+}
+*/
+body > header.contain-to-grid {
+  margin-bottom: 2rem;
+  max-width: 100%;
+  padding-bottom: 0;
+}
+
+#content, #lead {
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.index-card {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button.contact {
+  margin-left: 1em;
+}
+
+span.author,
+time {
+  font-size: 0.9375rem;
+  color: #999;
+}
+span.author a,
+time a {
+  color: #999;
+  font-weight: bold;
+}
+span.author a:hover, span.author a:focus,
+time a:hover,
+time a:focus {
+  color: #333333;
+}
+
+body.home > header.contain-to-grid {
+  margin-bottom: 0;
+}
+
+#lead {
+  margin-bottom: 1.875rem;
+  overflow: hidden;
+}
+#lead img {
+  width: 100%;
+  margin-top: -5em;
+}
+
+.entry-author {
+  background-color: #fbfbfb;
+  border: none;
+  padding: 3.125rem 5rem;
+  margin: 3.125rem -0.9375rem;
+}
+.entry-author .avatar {
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.entry-author h4 a {
+  color: #999;
+}
+.entry-author h4 a:hover, .entry-author h4 a:focus {
+  color: #333333;
+}
+.entry-author p {
+  color: #bbb;
+}
+
+.post header,
+.page header {
+  margin-bottom: 1.25rem;
+}
+
+.entry-tags {
+  color: #999;
+  font-size: 0.9375rem;
+}
+.entry-tags a {
+  color: #999;
+}
+.entry-tags a:hover, .entry-tags a:focus {
+  color: #333333;
+}
+
+.page-numbers {
+  color: #999;
+  display: block;
+  min-height: 1.5rem;
+  margin-left: -0.3125rem;
+}
+.page-numbers li {
+  height: 1.5rem;
+  color: #222222;
+  font-size: 0.875rem;
+  margin-left: 0.3125rem;
+}
+.page-numbers li a {
+  display: block;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: #999999;
+  border-radius: 3px;
+}
+.page-numbers li:hover a,
+.page-numbers li a:focus {
+  background: #e6e6e6;
+}
+.page-numbers li.unavailable a {
+  cursor: default;
+  color: #999999;
+}
+.page-numbers li.unavailable:hover a, .page-numbers li.unavailable a:focus {
+  background: transparent;
+}
+.page-numbers li.current a {
+  background: #488373;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+.page-numbers li.current a:hover, .page-numbers li.current a:focus {
+  background: #488373;
+}
+.page-numbers li {
+  float: left;
+  display: block;
+}
+
+.pagination-centered ul.page-numbers li {
+  float: none;
+  display: inline-block;
+}
+
+.page-numbers li span.current {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.page-numbers li {
+  margin-left: 0.5rem;
+}
+
+.page-numbers li span:hover a,
+.page-numbers li span a:focus {
+  background: #e6e6e6;
+}
+.page-numbers li span.current {
+  background: #488373;
+  padding: 0.0625rem 0.625rem 0.0625rem;
+  color: white;
+  font-weight: bold;
+  cursor: default;
+}
+
+.avatar {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+}
+
+ol.commentlist {
+  margin-left: 0;
+  margin-top: 2em;
+}
+ol.commentlist p {
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+ol.commentlist ul.children {
+  margin-left: 4rem;
+}
+ol.commentlist li {
+  list-style: none;
+  margin-bottom: 2em;
+}
+ol.commentlist li .comment-author img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+ol.commentlist li .author-meta {
+  display: inline-block;
+}
+ol.commentlist li .author-meta cite.fn {
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+ol.commentlist li .author-meta time a {
+  color: #ccc;
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+}
+ol.commentlist li .author-meta .comment-edit-link {
+  color: #bbb;
+  font-size: 0.875rem;
+}
+ol.commentlist li section.comment {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+ol.commentlist li section.comment a.comment-reply-link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #bbb;
+}
+ol.commentlist li section.comment a.comment-reply-link:hover, ol.commentlist li section.comment a.comment-reply-link:focus {
+  color: #333333;
+}
+
+#sidebar {
+  margin-top: 1.25rem;
+}
+
+#sidebar .panel, .footer-widget .panel {
+  border: none;
+  background-color: #eee;
+  padding: 1.5rem 1.875rem;
+}
+#sidebar .panel a, .footer-widget .panel a {
+  color: #999;
+  font-size: 0.9375rem;
+}
+#sidebar .panel a:hover, #sidebar .panel a:focus, .footer-widget .panel a:hover, .footer-widget .panel a:focus {
+  color: #333333;
+}
+#sidebar ul, .footer-widget ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+#sidebar .widget h4, .footer-widget .widget h4 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  color: #888;
+  font-weight: 600;
+}
+
+footer.full-width {
+  background-color: #7bb6a6;
+  padding-top: 0.625rem;
+}
+footer.full-width p {
+  font-size: 0.875rem;
+  color: #fff;
+}
+footer.full-width a {
+  color: #DDD;
+  font-size: 0.9375rem;
+}
+footer.full-width a:hover, footer.full-width a:focus {
+  color: #FFF;
+}
+footer.full-width .footer-logo {
+  margin-bottom: -1.3em;
+}
+footer.full-width .footer-logo h2 {
+  margin: 0;
+  padding: 0;
+}
+footer.full-width .footer-logo h2 i {
+  font-size: 1.4em;
+}
+footer.full-width ul.services {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer.full-width ul.services li {
+  float: left;
+  display: inline-block;
+  padding: .5em;
+  border-radius: .3em;
+  transition: all 0.5s ease;
+}
+footer.full-width ul.services li:hover {
+  background: #488373;
+}
+
+.admin-bar > .fixed {
+  margin-top: 2rem;
+}
+
+.f-topbar-fixed > .container {
+  margin-top: 2rem;
+}
+
+@media only screen {
+  .entry-author .avatar {
+    margin-bottom: 1.25rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  #content {
+    padding: 3.125rem;
+  }
+
+  .entry-author {
+    margin: 3.125rem -3.125rem;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  #sidebar {
+    padding-left: 1.875rem;
+    padding-right: 0;
+    margin-top: 0;
+  }
+
+  .footer {
+    margin-top: 2.625rem;
+    padding-top: 2rem;
+  }
+}
